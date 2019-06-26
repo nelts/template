@@ -1,0 +1,34 @@
+{
+  "name": "@nelts/template",
+  "version": "1.0.0",
+  "description": "nelts template",
+  "main": "dist/index.js",
+  "source": "dist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelts/template.git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node node_modules/@nelts/process/dist/runtime.js --module=@nelts/nelts --base=. --config=nelts.config",
+    "build": "rm -rf dist/ && tsc -d"
+  },
+  "keywords": [
+    "template",
+    "nelts"
+  ],
+  "author": "cevio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelts/template/issues"
+  },
+  "homepage": "https://github.com/nelts/template#readme",
+  "dependencies": {
+    "@nelts/nelts": "^1.0.10",
+    "@nelts/process": "^1.0.7",
+    "pm2": "^3.5.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
