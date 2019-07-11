@@ -27,6 +27,6 @@ __decorate([
 ], IndexController.prototype, "Home", null);
 IndexController = __decorate([
     Controller.Prefix(),
-    __metadata("design:paramtypes", [nelts_1.Plugin])
+    __metadata("design:paramtypes", [nelts_1.WorkerPlugin])
 ], IndexController);
 exports.default = IndexController;

@@ -4,6 +4,10 @@ template for nelts project or plugin.
 
 # Usage
 
+```bash
+npm ci
+```
+
 You can install cli `npm i @nelts/cli`. Custom usage like this blow.
 
 # Dev

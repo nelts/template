@@ -1,6 +1,6 @@
-import { Plugin, Context } from '@nelts/nelts';
+import { WorkerPlugin, Context } from '@nelts/nelts';
 
-export default (app: Plugin) => {
+export default (app: WorkerPlugin) => {
   app.on('props', configs => console.log('nelts props received:', configs));
   app.on('ServerStarted', () => console.log('nelts life [ServerStarted] invoked.'));
   app.on('ServerStopping', () => console.log('nelts life [ServerStopping] invoked.'));
