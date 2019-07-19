@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "nelts template",
   "main": "dist/index.js",
-  "source": "dist",
+  "source": "src",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nelts/template.git"
@@ -26,12 +26,11 @@
   },
   "homepage": "https://github.com/nelts/template#readme",
   "dependencies": {
-    "@nelts/nelts": "^1.1.10",
-    "@nelts/process": "^1.0.11"
+    "@nelts/nelts": "^1.1.21",
+    "@nelts/process": "^1.1.1"
   },
   "devDependencies": {
-    "@nelts/cli": "^1.0.4",
-    "pm2": "^3.5.1",
+    "@nelts/cli": "^1.0.7",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   }
