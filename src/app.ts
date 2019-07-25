@@ -3,8 +3,8 @@ import { LocalContext, LocalWorkerPlugin } from './index';
 export default (plu: LocalWorkerPlugin) => {
   plu.on('props', async configs => plu.logger.debug('nelts props received:', configs));
   plu.on('ServerStarted', async () => plu.logger.debug('nelts life [ServerStarted] invoked.'));
-  plu.on('ServerStopping', async () => plu.logger.debug('nelts life [ServerStopping] invoked.'));
-  plu.on('ServerStopped', async () => plu.logger.debug('nelts life [ServerStopped] invoked.'));
+  // plu.on('ServerStopping', async () => plu.logger.debug('nelts life [ServerStopping] invoked.'));
+  // plu.on('ServerStopped', async () => plu.logger.debug('nelts life [ServerStopped] invoked.'));
   plu.on('ContextStart', async (ctx: LocalContext) => plu.logger.debug('nelts context life [ContextStart] invoked.'));
   plu.on('ContextStaticValidator', async (ctx: LocalContext) => plu.logger.debug('nelts context life [ContextStaticValidator] invoked.'));
   plu.on('ContextStaticFilter', async (ctx: LocalContext) => plu.logger.debug('nelts context life [ContextStaticFilter] invoked.'));
