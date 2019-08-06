@@ -1,3 +1,5 @@
+import * as keygrip from 'keygrip';
 export default {
-  cookie: ['nelts', 'cookie'],
+  cookie: new keygrip(['nelts', 'cookies'], 'sha256', 'hex'),
+  workerServiceFrameworker: '@nelts/http',
 }
