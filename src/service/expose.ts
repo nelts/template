@@ -1,6 +1,6 @@
-import { Provide } from '@nelts/http';
+import { provide } from 'injection';
 
-@Provide('expose')
+@provide('expose')
 export default class ExposeService {
   money(a: number, b: number) {
     return a + b;

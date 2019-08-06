@@ -1,9 +1,9 @@
-import { Provide, Inject } from '@nelts/http';
+import { provide, inject } from 'injection';
 import ExposeService from './expose';
 
-@Provide('index')
+@provide('index')
 export default class IndexService {
-  @Inject('expose')
+  @inject('expose')
   private _expose: ExposeService;
 
   sum(a: number, b: number) {
