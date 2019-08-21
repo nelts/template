@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/nelts/template#readme",
   "dependencies": {
-    "@nelts/http": "^1.0.34",
-    "@nelts/master": "^1.0.36",
-    "@nelts/process": "^1.1.20"
+    "@nelts/http": "^1.0.38",
+    "@nelts/master": "^1.0.38",
+    "@nelts/process": "^1.1.21"
   },
   "devDependencies": {
     "@nelts/cli": "^1.0.9",
