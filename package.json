@@ -28,7 +28,9 @@
   "dependencies": {
     "@nelts/http": "^1.0.38",
     "@nelts/master": "^1.0.38",
-    "@nelts/process": "^1.1.21"
+    "@nelts/process": "^1.1.21",
+    "@types/co": "^4.6.2",
+    "co": "^4.6.0"
   },
   "devDependencies": {
     "@nelts/cli": "^1.0.9",
